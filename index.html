@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .btn{
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        margin: 5px;
+        padding: 3px;
+    }
+    .btn:hover{
+        background-color: black;
+        color: white;
+    }
+    #size{
+        margin: 5px;
+        padding: 5px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <span id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam nulla ut enim quia fugiat minima ipsum est necessitatibus accusamus iste, dolorem fugit libero hic, fuga aliquam unde quam nihil magni. Veritatis voluptatibus, quisquam odit a assumenda modi optio vero illo, ex quasi quidem ab! Quibusdam modi corrupti soluta quidem.</span>
+    <br />
+
+    <button onclick="booooold()" id="bold" class="btn">Bold</button>
+    <button onclick="italiccc()" id="italic" class="btn">Italic</button>
+    <button onclick="underLining()" id="underline" class="btn">Under Line</button>
+    <select onclick="fontSizeee()" name="sizes" id="size">
+        <option value="medium"class="fonts">medium</option>
+        <option value="small" class="fonts">small</option>
+        <option value="large" class="fonts">large</option>
+        <option value="larger" class="fonts">larger</option>
+    </select>
+    <input onclick="colorPickerr()" id="colorPicker" type="color" style="margin: 10px; cursor: pointer;"/>
+
+    <script src="app.js"></script>
+</body>
+</html>
